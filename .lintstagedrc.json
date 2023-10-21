@@ -1,0 +1,4 @@
+{
+  "*.{ts,yml,json,md}": ["bun run pretty:fix"],
+  "*.ts": ["bun run lint:fix"]
+}
